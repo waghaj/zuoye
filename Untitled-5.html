@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1{
+        background-color: grey;
+        padding: 15px 15px 3px 15px;
+        color: white;
+        margin: 0;
+      }
+      .cla{
+        list-style-type: none;
+        margin-top: 3px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      .l{
+        float: left;
+      }
+      li a{
+        display: inline-block;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+      }
+      li a :hover{
+        background-color: #111;
+      }
+      .active{
+        background-color: red;
+      }
+      .menu{
+        width: 30%;
+      }
+      .menu li{
+        list-style-type: none;
+        background-color:#33b5e5;
+        padding: 5px;
+        margin-bottom: 5px;
+        color: white;
+      }
+      .content{
+        width: 85%;
+        color: black;
+      }
+      .F{
+       clear: left;
+       background-color: grey;
+       padding: 10px;
+       color: white;
+      }
+    </style>
+</head>
+<body>
+<h1>China</h1>
+<ul class="cla">
+  <li class="l"><a href="#Home" class="active"> Home</a></li>
+  <li class="l"><a href="#News">News</a></li>
+  <li class="l"><a href="#Contact">Contact</a></li>
+  <li class="l"><a href="#About"> About</a></li>
+</ul>
+<div>
+  <div class="column menu" style="float: left; padding: 15px;">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+</div>
+<div class="column content" style="padding: 15px;">
+  <h2>The City</h2>
+  <p>China is the capital of the China region on the island of Crete</p>
+</div>
+<div class="F">
+  <p>Footer Text</p>
+</div>
+</body>
+</html>
